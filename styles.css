@@ -76,7 +76,9 @@ html, body{
       padding: 1rem;
       
   }
-   .padding p{
+
+
+   .padding-1 p{
       text-align: justify;
       text-justify: inter-word;
       padding-left: 1rem;
@@ -108,21 +110,6 @@ html, body{
     height: 75%; 
    
   }
- .connect{
-     color: rgb(236, 227, 227);
-     margin-top: 10px;
-     padding-bottom: 10px;
-     writing-mode: vertical-rl;
-     transform: rotate(180deg);
- }
- /* .connect hr{
-      border-top: 2px solid #b4b4b4;
-      width: 50%;
-      margin-top: .3rem;
-      margin-bottom: 1rem;
-      color: white;
-      
- } */
 
     hr.light{
          border-top: 1px solid #d5d5d5;
@@ -133,24 +120,14 @@ html, body{
          }
 
 
-figure{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0! important;
-    background-image: url("https://unsplash.com/photos/cuddQwqncLc");
-}
-
 .foot {
-  display: flex;
+    
    padding-top: 20px;
     padding-bottom: 0;
 }
 .foot h5{
     margin-top: 2rem;
     
-    
-   
 }
 #map-container-google-2{
     height: 300px;
