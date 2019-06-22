@@ -31,10 +31,11 @@ html, body{
         font-size: 1.5em !important;
     }
     
-    .carousel-inner img{
-        width: 100%;
-        height:100%;
+     .carousel-inner img {
+      width: 100%;
+       height: 100%;   
     }
+
    
     .carousel-caption{
         position: absolute;
@@ -43,7 +44,7 @@ html, body{
     }
     .carousel-caption h1{
         color:#ffffff;
-        font-size: 500%;
+        font-size: 250%;
         text-transform: uppercase;
         text-shadow: 1px 1px 15px #000;
     }
@@ -52,17 +53,33 @@ html, body{
         font-size: 200%;
         font-weight: 500;
         text-shadow: 1px 1px 10px #000;
-        padding-bottom: 2rem;
+        padding-bottom: 0.7rem;
     }
-  .btn-outline-light{
-        border: 3px solid #CCFFE5;
-        color: beige;
+  .btn-primary{
+        border: 1px solid#eff3f7;
+        color: white;
         font-weight: 500;
+        background-color: #0d68e0;
+        padding: 6px;
+        font-size: 16px;
+        
+       
   }
-  .btn-outline-light:hover{
-      background-color: #99bffc;
+ .carousel-caption button{
+        border: 1px solid#eff3f7;
+        color: white;
+        font-weight: 500;
+        background-color: #0d68e0;
+        padding: 6px;
+        font-size: 16px;
+        margin-top: 15px;
+       
+       
+  }
+  .btn-primary:hover{
+      background-color:#4b88d8 ;
       color: beige;
-      border: 3px solid #b2b5ba;
+      border: 1px solid #b2b5ba;
   }
 
   .jumbotron{
@@ -118,6 +135,137 @@ html, body{
          margin-bottom: 1rem;
          padding-bottom: 2rem;
          }
+
+    @media(max-width: 575.98px) {
+     .carousel-caption{
+        position: absolute;
+        top: 40%;
+       
+    }
+    .carousel-caption h1{
+        color:#ffffff;
+        font-size: 100%;
+      
+    }
+     .carousel-caption h3{
+        color:#ffffff;
+        font-size: 80%;
+    }
+    .carousel-caption .btn{
+    font-size: 50%;
+    padding: 4px 8px;
+    margin-top: 20px;
+}
+.carousel-indicators{
+    display: none;
+}
+.display-4{
+font-size: 150%;
+}
+}
+@media(min-width: 576px) and (max-width: 767.98px) {
+     .carousel-caption{
+        position: absolute;
+        top: 40%;
+       
+    }
+    .carousel-caption h1{
+        color:#ffffff;
+        font-size: 150%;
+      
+    }
+     .carousel-caption h3{
+        color:#ffffff;
+        font-size: 100%;
+    }
+    .carousel-caption .btn{
+    font-size: 60%;
+    padding: 4px 8px;
+    margin-top: 40px;
+}
+.carousel-indicators{
+    display: none;
+}
+.display-4{
+font-size: 180%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+       .carousel-caption{
+        position: absolute;
+        top: 40%;
+       
+    }
+    .carousel-caption h1{
+        color:#ffffff;
+        font-size: 200%;
+      
+    }
+     .carousel-caption h3{
+        color:#ffffff;
+        font-size: 110%;
+    }
+    .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+    margin-top: 50px;
+}
+.display-4{
+font-size: 200%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+       .carousel-caption{
+        position: absolute;
+        top: 40%;
+       
+    }
+    .carousel-caption h1{
+        color:#ffffff;
+        font-size: 230%;
+      
+    }
+     .carousel-caption h3{
+        color:#ffffff;
+        font-size: 120%;
+    }
+    .carousel-caption .btn{
+    font-size: 120%;
+    padding: 8px 12px;
+    margin-top: 50px;
+}
+.display-4{
+font-size: 230%;
+}
+}
+@media (min-width: 1200px){
+       .carousel-caption{
+        position: absolute;
+        top: 50%;
+       
+    }
+    .carousel-caption h1{
+        color:#ffffff;
+        font-size: 350%;
+      
+    }
+     .carousel-caption h3{
+        color:#ffffff;
+        font-size: 200%;
+    }
+    .carousel-caption .btn{
+    font-size: 150%;
+    padding: 8px 12px;
+    margin: 65px;
+}
+.display-4{
+font-size: 250%;
+}
+}
+
+
+
+
 
 
 .foot {
