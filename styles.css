@@ -141,9 +141,18 @@
     @media(max-width: 575.98px) {
      .carousel-caption{
         position: absolute;
-        top: 25%;
+        top: 30%;
        
     }
+     .btn-primary{
+        border: 1px solid#eff3f7;
+        color: white;
+        font-weight: 500;
+        background-color: #0d68e0;
+        padding: 8px;
+        font-size: 10px;
+        font-family: 'Francois One', sans-serif;
+     }
     .carousel-caption h1{
         color:#ffffff;
         font-size: 110%;
@@ -171,6 +180,15 @@ font-size: 150%;
         top: 30%;
        
     }
+    .btn-primary{
+        border: 1px solid#eff3f7;
+        color: white;
+        font-weight: 500;
+        background-color: #0d68e0;
+        padding: 8px;
+        font-size: 12px;
+        font-family: 'Francois One', sans-serif;
+     }
     .carousel-caption h1{
         color:#ffffff;
         font-size: 145%;
@@ -198,6 +216,15 @@ font-size: 180%;
         top: 40%;
        
     }
+    .btn-primary{
+        border: 1px solid#eff3f7;
+        color: white;
+        font-weight: 500;
+        background-color: #0d68e0;
+        padding: 8px;
+        font-size: 14px;
+        font-family: 'Francois One', sans-serif;
+     }
      
     .carousel-caption h1{
         color:#ffffff;
@@ -223,6 +250,15 @@ font-size: 200%;
         top: 45%;
        
     }
+    .btn-primary{
+        border: 1px solid#eff3f7;
+        color: white;
+        font-weight: 500;
+        background-color: #0d68e0;
+        padding: 8px;
+        font-size: 16px;
+        font-family: 'Francois One', sans-serif;
+     }
 
     .carousel-caption h1{
         color:#ffffff;
