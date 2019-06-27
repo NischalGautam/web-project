@@ -7,6 +7,7 @@
     color:black ;
     text-align: justify;
     font-size: 20px;
+   
     }
    h4, h5{
         font-family: 'Fjalla One', sans-serif;
@@ -36,6 +37,8 @@
         top: 50%;
         transform: translateY(-50%);
     }
+   
+
     .carousel-caption h1{
         color:#ffffff;
         font-size: 250%;
@@ -43,21 +46,30 @@
         text-shadow: 1px 1px 15px #000;
         font-family: 'Francois One', sans-serif;
     }
+
+    .carousel-caption h2{   
+     font-family: 'Francois One', sans-serif;
+     font-size: 400%;
+     text-transform: uppercase;
+     text-shadow: 1px 1px 15px #000;
+    }
+    
      .carousel-caption h3{
         color:#ffffff;
         font-size: 200%;
         font-weight: 500;
         text-shadow: 1px 1px 10px #000;
         padding-bottom: 0.7rem;
-           font-family: 'Francois One', sans-serif;
-        
-    }
+        font-family: 'Francois One', sans-serif;
+     }
+
   .btn-primary{
         border: 1px solid#eff3f7;
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
         padding: 8px;
+        margin-top: 10px;
         font-size: 26px;
         font-family: 'Francois One', sans-serif;
       
@@ -69,7 +81,7 @@
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
-        padding: 6px;
+        padding: 8px;
         font-size: 16px;
         margin-top: 15px;
        
@@ -83,11 +95,15 @@
 
   .jumbotron{
     padding: 2rem;
+    margin: 0.5rem;
     border-radius: 1;
     background-color:#f2f2f2!important; 
+    text-align: justify;
+
   }
   .padding{
       padding-bottom: 2rem;
+      
   }
   .padding h3{
       padding: 1rem;
@@ -95,9 +111,10 @@
   }
 
 
-   .padding-1 p{
+   .padding p{
       text-align: justify;
       text-justify: inter-word;
+      word-spacing: normal;
       padding-left: 1rem;
       padding-right: 1rem;
       padding-bottom: 1rem;
@@ -106,6 +123,13 @@
   .padding img{
      border: 2px solid #ada4b8;
      border-radius: 10px 10px 10px 10px;
+     margin-top: 1rem;
+     margin-bottom:0;
+  }
+   .padding-1 img{
+     border: 2px solid #ada4b8;
+     border-radius: 10px 10px 10px 10px;
+     margin: 0.5rem 5rem 2rem 0rem;
   }
 
   .welcome{
@@ -131,11 +155,9 @@
   }
 
     hr.light{
-         border-top: 1px solid #d5d5d5;
-         width: 20%;
-         margin-top: 1rem;
-         margin-bottom: 1rem;
-         padding-bottom: 2rem;
+         border-top: 2px solid #d5d5d5;
+         width: 25%;
+         padding-bottom: 1rem;
          }
 
     @media(max-width: 575.98px) {
@@ -144,19 +166,27 @@
         top: 30%;
        
     }
+    .jumbotron{
+       text-size-adjust: auto; 
+    }
      .btn-primary{
         border: 1px solid#eff3f7;
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
-        padding: 8px;
-        font-size: 10px;
+        padding: 4px 8px;
+        font-size: 45%;
         font-family: 'Francois One', sans-serif;
      }
     .carousel-caption h1{
         color:#ffffff;
         font-size: 110%;
       
+    }
+     .carousel-caption h2{   
+     font-size: 160%;
+     margin-top: 10%;
+  
     }
      .carousel-caption h3{
         color:#ffffff;
@@ -180,19 +210,25 @@ font-size: 150%;
         top: 30%;
        
     }
+    
     .btn-primary{
         border: 1px solid#eff3f7;
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
-        padding: 8px;
-        font-size: 12px;
+        padding: 4px 8px;
+        font-size: 60%;
         font-family: 'Francois One', sans-serif;
      }
     .carousel-caption h1{
         color:#ffffff;
         font-size: 145%;
       
+    }
+     .carousel-caption h2{   
+     font-size: 190%;
+     margin-top: 15%;
+  
     }
      .carousel-caption h3{
         color:#ffffff;
@@ -221,8 +257,8 @@ font-size: 180%;
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
-        padding: 8px;
-        font-size: 14px;
+        padding: 4px 8px;
+        font-size: 90%;
         font-family: 'Francois One', sans-serif;
      }
      
@@ -230,6 +266,11 @@ font-size: 180%;
         color:#ffffff;
         font-size: 150%;
       
+    }
+     .carousel-caption h2{   
+     font-size: 200%;
+     margin-top: 10%;
+  
     }
      .carousel-caption h3{
         color:#ffffff;
@@ -255,8 +296,8 @@ font-size: 200%;
         color: white;
         font-weight: 500;
         background-color: #0d68e0;
-        padding: 8px;
-        font-size: 16px;
+        padding: 4px 8px;
+        font-size: 100%;
         font-family: 'Francois One', sans-serif;
      }
 
@@ -264,6 +305,11 @@ font-size: 200%;
         color:#ffffff;
         font-size: 180%;
       
+    }
+     .carousel-caption h2{   
+     font-size: 250%;
+     margin-top: 6%;
+  
     }
      .carousel-caption h3{
         color:#ffffff;
@@ -290,6 +336,11 @@ font-size: 230%;
         padding: 5px;
       
     }
+     .carousel-caption h2{   
+     font-size: 280%;
+     margin-top: 5%;
+  
+    }
      .carousel-caption h3{
         color:#ffffff;
         font-size: 120%;
@@ -307,9 +358,6 @@ font-size: 250%;
 
 
 
-
-
-
 .foot {
     
    padding-top: 20px;
@@ -321,4 +369,16 @@ font-size: 250%;
 }
 #map-container-google-2{
     height: 300px;
+    padding-top: 1rem;
 }
+hr.my-4{
+    
+         border-top: 2px solid #d5d5d5;
+         width: 100%;
+         margin-top: 5rem;
+         margin-bottom: 1rem;
+         padding-bottom: 1rem;
+         
+
+}
+
